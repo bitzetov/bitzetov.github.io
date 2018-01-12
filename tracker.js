@@ -11,8 +11,8 @@ function updatePage(){
     document.getElementById('statsTxt').innerHTML = "<b>" + totalDonations + " BTCZ</b> собрано за <b>" + hours + " часов</b>, в среднем: <b>" + hourlyAverage + " BTCZ/час</b>";
     document.getElementById('btczBalance1').innerHTML = BtczBalance1.toFixed(0) + " BTCZ";
     document.getElementById('btczBalance1_toBtc').innerHTML = "<b>" + BtczBalance1_toBtc.toFixed(8) + " BTC</b>";
-    document.getElementById('progressBar1').style.width = (BtczBalance1_toBtc/0.0025).toFixed(2) + "%";
-    document.getElementById('progressPercent1').innerHTML = (BtczBalance1_toBtc/0.0025).toFixed(0) + "%";
+    document.getElementById('progressBar1').style.width = (BtczBalance1_toBtc/0.003).toFixed(2) + "%";
+    document.getElementById('progressPercent1').innerHTML = (BtczBalance1_toBtc/0.003).toFixed(0) + "%";
 }
 
 function getBalances(){
