@@ -1,0 +1,6 @@
+-zpool axepool.com:3032
+-zwal t1M3fZ2aZ5U8pRdAoKH2rwLH2evnXmz3B3A.RIGDONATE
+-zpsw x
+-ftime 1
+-i 6
+-allpools 1
